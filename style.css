@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('img/img6.jpg') center/cover no-repeat;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.header .left {
+    display: flex;
+    align-items: center;
+}
+
+.header .left img {
+    height: 80px;
+    width: 80px;
+    margin-right: 15px;
+}
+
+.header .left div {
+    font-size: 24px;
+    color: beige;
+}
+
+.header .mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .navbar {
+    list-style: none;
+    padding: 0;
+}
+
+.header .navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.header .navbar li a {
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+}
+
+.header .navbar li a:hover,
+.header .navbar li a.active {
+    text-decoration: underline;
+    color: olive;
+}
+
+.header .right {
+    display: flex;
+    align-items: center;
+}
+
+.header .right p {
+    font-size: 20px;
+    margin-right: 15px;
+    color: beige;
+}
+
+.header .right button.btn {
+    background-color: olive;
+    color: beige;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.header .right button.btn:hover {
+    background-color: dimgrey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    width: 60%;
+}
+
+.container h2 {
+    font-size: 40px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #333;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.container button.btn {
+    width: 100%;
+    background-color: olive;
+    color: beige;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container button.btn:hover {
+    background-color: dimgrey;
+}
